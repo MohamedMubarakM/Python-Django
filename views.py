@@ -1,6 +1,7 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
-from django.shortcuts import render
-
-# Create your views here.
+from django.shortcuts import render 
+  
+# Create your views here. 
+def mubi_view1(request): 
+    return render(request, 'mubiOne.html')
+def mubi_view2(request):
+    return render(request, 'mubiTwo.html') 
